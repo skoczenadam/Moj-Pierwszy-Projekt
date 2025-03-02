@@ -3,7 +3,7 @@ import { useState } from "react";
 import styles from "./LanguageSelector.module.css";
 
 export function LanguageSelector() {
-  const [selectedOption, useSelectedOption] = useState();
+  const [selectedOption, useSelectedOption] = useState("PL");
   return (
     <>
       <p>Wybrana opcja: {selectedOption}</p>
